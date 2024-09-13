@@ -1,0 +1,60 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencias de Node
+node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos de expo
+.expo/
+.expo-shared/
+.expo.dev/
+
+# archivos de buils
+ios/
+android/
+dist/
+web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+.metro/
+
+# logs y debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# Carpetas de VSCode
+.vscode/
+.idea/
+
+# cache windows
+Thumbs.db
+
+# Herramientas de cache
+*.swp
+*.swo
+*.swm
